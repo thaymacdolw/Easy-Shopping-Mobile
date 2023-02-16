@@ -8,8 +8,8 @@
 }
 
 :root {
-    --font-color:#5D5D7D;
-    --project-color:#9499EA;
+    --font-color: #5D5D7D;
+    --project-color: #9499EA;
 }
 
 .container {
@@ -20,20 +20,20 @@
     justify-content: center;
 }
 
-.container-left{
+.container-left {
     width: 65%;
     margin-left: 134px;
     margin-top: 173px;
 }
 
 .container-right {
-    background-color: rgb(148,153,234,0.16);
+    background-color: rgb(148, 153, 234, 0.16);
     height: 100vh;
     width: 35%;
 }
 
 .container-right a:nth-child(2) {
-    color: rgb(93, 93, 125,0.4);
+    color: rgb(93, 93, 125, 0.4);
 }
 
 .container-right a {
@@ -44,9 +44,11 @@
     margin-left: 54px;
     margin-top: 30px;
 }
+
 .container-right a:hover {
     color: rgb(93, 93, 125, 0.8);
 }
+
 header {
     margin-top: 30px;
 }
@@ -62,16 +64,17 @@ header {
     font-weight: 400;
     font-size: 60px;
     width: 350px;
-    
+
 }
 
 .container-left p {
-    color: rgb(93, 93, 125,0.8);
+    color: rgb(93, 93, 125, 0.8);
     font-weight: 400;
     font-size: 24px;
     width: 650px;
     text-align: justify;
 }
+
 button {
     color: #fff;
     background-color: var(--project-color);
@@ -84,11 +87,12 @@ button {
 }
 
 button:hover {
-    background-color: rgb(148,153,234,0.16);
+    background-color: rgb(148, 153, 234, 0.16);
     color: #232329;
 }
+
 button:active {
-    background-color: rgb(148,153,234,0.1);
+    background-color: rgb(148, 153, 234, 0.1);
     color: #232329;
     border: 1px solid #232329;
 }
@@ -97,10 +101,12 @@ button:active {
     .container {
         display: block;
     }
+
     .container-left {
         width: 100%;
         margin: auto;
     }
+
     .container-left h1 {
         display: block;
         text-align: center;
@@ -108,28 +114,84 @@ button:active {
         font-size: 50px;
         width: 300px;
     }
+
     .container-left p {
         font-size: 1.2rem;
         width: auto;
         text-align: center;
         margin: 0px 10px;
     }
-    .container-right{
+
+    .container-right {
         height: 50vh;
         width: 100vw;
         display: block;
     }
+
     .container-right img {
         max-width: 90%;
         height: 40vh;
         position: initial;
         margin: 10px 10px 0px 60px;
         left: 10px;
-    
+
     }
+
     header {
         display: none;
     }
+
+    button {
+        display: block;
+        margin: 3% auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .container-left {
+        width: 100%;
+        margin: auto;
+        margin-top: 160px;
+
+    }
+
+    .container-left h1 {
+        display: block;
+        text-align: center;
+        margin: -160px auto 0px;
+        font-size: 50px;
+        width: 300px;
+    }
+
+    .container-left p {
+        font-size: 1.2rem;
+        width: auto;
+        text-align: center;
+        margin: 0px 10px;
+    }
+
+    .container-right {
+        height: 50vh;
+        width: 100vw;
+        display: block;
+    }
+
+    .container-right img {
+        max-width: 90%;
+        height: 40vh;
+        position: initial;
+        margin: 10px 10px 0px 60px;
+        left: 10px;
+    }
+
+    header {
+        display: none;
+    }
+
     button {
         display: block;
         margin: 3% auto;
